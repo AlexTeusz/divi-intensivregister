@@ -12,3 +12,9 @@ This program extracts the clinic information of the [DIVI Intensivregister](http
 
 1. `pip install -r requirements.txt`
 2. `python extract.py`
+
+## Selenium Chromedriver
+
+The program uses [Selenium](https://selenium-python.readthedocs.io/) to visit the webpage and select 'All' to see all clinics. If the program isn't running, it could be the case that you have to download another version of the chrome driver:
+
+- https://sites.google.com/a/chromium.org/chromedriver/downloads
